@@ -6,8 +6,9 @@
 
 html,
 body {
-  background-color: #ada9a9;
+  background: #e3e7ea;
   width: 100%;
+  font-weight: 500;
   font-family: sans-serif;
 }
 h1 {
@@ -18,7 +19,6 @@ h1 {
   display: flex;
   justify-content: space-around;
   margin: 30px;
-  color: #300964;
 }
 
 .menu {
@@ -29,19 +29,19 @@ h1 {
 }
 
 .menu ul li {
-  padding: 10px;
-  color: #170e22;
+  padding: 5px;
 }
 .menu ul li a {
   text-decoration: none;
-  font-size: 16px;
   position: relative;
+  color: black;
+  font-weight: bold;
 }
 .menu ul li::after {
   content: "";
   width: 10%;
   height: 1px;
-  background: #5b2c94;
+  background: black;
   display: block;
   transition: 0.5s;
   transform: scaleX(0);
@@ -55,15 +55,19 @@ h1 {
   align-items: center;
   justify-content: space-between;
   margin: 30px;
+  margin-bottom: 10%;
+  font-size: 20px;
 }
-.box {
-  padding: 10px;
+.box p {
+  margin-top: 10px;
 }
 .btn {
   padding: 10px;
   border-radius: 3px;
   outline: none;
   border: 1px solid #300964;
+  margin-top: 20px;
+  margin-left: 15px;
 }
 .btn:hover {
   background-color: #300964;
@@ -72,5 +76,295 @@ h1 {
 
 div img {
   border-radius: 5px;
-  width: 450px;
+  width: 500px;
+}
+
+.container-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px;
+  margin-bottom: 10%;
+  font-size: 500;
+  gap: 15px;
+}
+.container-1 img {
+  width: 500px;
+  margin-right: 100px;
+}
+.box-2,
+.box-3 {
+  display: flex;
+  font-size: 16px;
+  text-align: start;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 18px;
+}
+.box-3 {
+}
+.div-2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 7%;
+}
+.div-2 h3 {
+  text-align: center;
+  font-size: 2.5em;
+}
+.div-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+.div-3 img {
+  width: 350px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+}
+
+.div-3 img h2 p {
+  flex-direction: column;
+  gap: 10px;
+}
+
+.div-4 button {
+  margin: 30px;
+  padding: 10px;
+  border-radius: 3px;
+  width: 100px;
+  border: 1.5px solid #300964;
+}
+.div-4 button:hover {
+  background-color: #300964;
+  color: white;
+}
+.div-5 {
+  display: flex;
+  margin: 30px;
+  justify-content: space-around;
+}
+.div-5 h2 {
+  font-size: 40px;
+  margin-left: 25px;
+}
+.div-5 p button {
+  padding: 10px;
+  border-radius: 3px;
+  width: 100px;
+  border: 1.5px solid #300964;
+  margin: 20px;
+}
+.div-5 p button:hover {
+  background-color: #300964;
+  color: white;
+}
+.div-6 {
+  margin: 20%;
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  gap: 10px;
+  text-align: start;
+}
+.div-6 h2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+hr {
+  margin-top: 10px;
+}
+.div-7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.div-7 h4 {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+}
+.div-7 button {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #606;
+  margin-bottom: 10%;
+}
+.div-7 button:hover {
+  background-color: #300964;
+  color: white;
+}
+.div-8 {
+  width: 100%;
+  background: #ccf;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.div-9 {
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 30px;
+  gap: 50px;
+}
+.div-9 h4 {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  font-family: Risque;
+}
+.div-10 {
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+  gap: 15px;
+}
+.div-10 h5 {
+}
+
+.last {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #ccf;
+}
+.last b {
+}
+.test-container {
+  display: flex;
+}
+.picture {
+  width: 130px;
+  height: 130px;
+  background-color: white;
+  border-radius: 70px;
+}
+.left {
+  width: 250px;
+  height: 600px;
+  border-radius: 25px;
+  background: #ccf;
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 40px;
+  padding: 50px;
+}
+.left h3 {
+  font-size: 30px;
+}
+.left select {
+  margin: 10px;
+  padding: 5px;
+  width: 150px;
+  border: none;
+  border-radius: 3px;
+}
+.left select option {
+  outline: none;
+}
+.right {
+  display: flex;
+  text-align: justify;
+  flex-direction: column;
+  font-size: 25px;
+  margin: 50px;
+}
+
+.right h3 {
+  text-align: center;
+}
+.right button {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #606;
+  margin-bottom: 10%;
+  width: 100px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.right button:hover {
+  background-color: #300964;
+  color: white;
+}
+.test {
+  font-size: 40px;
+  margin: 18px;
+}
+.test-div {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  justify-content: center;
+}
+.test-div div {
+  width: 300px;
+  height: 250px;
+  background-color: cadetblue;
+  margin: 25px;
+  border-radius: 7px;
+}
+.test-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 12px;
+}
+.login-nav {
+  width: 100%;
+  height: 200px;
+  background: #ccf;
+}
+.login-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px;
+}
+.login-image input {
+  width: 300px;
+  padding: 7px;
+  margin: 10px;
+  border-radius: 15px;
+  background: #a1a1a1;
+  border: none;
+  outline: none;
+}
+.login-image button {
+  padding: 7px;
+  background-color: #300964;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  width: 100px;
+  margin-bottom: 120px;
+}
+.icon {
+  width: 90%;
+  height: 200px;
+  background: #ccf;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin: 60px;
 }
