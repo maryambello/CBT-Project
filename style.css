@@ -295,19 +295,22 @@ hr {
   text-align: center;
 }
 .right button {
-  padding: 10px;
+  padding: 5px;
   border-radius: 10px;
   border: 1px solid #606;
-  margin-bottom: 10%;
-  width: 100px;
   display: flex;
   justify-content: end;
   align-items: end;
+  width: 100px;
 }
-.right button:hover {
+.right button :hover {
   background-color: #300964;
   color: white;
 }
+.right button a {
+  text-align: center;
+}
+
 .test {
   font-size: 40px;
   margin: 18px;
@@ -324,6 +327,10 @@ hr {
   background-color: cadetblue;
   margin: 25px;
   border-radius: 7px;
+}
+.test-div div img {
+  width: 300px;
+  height: 250px;
 }
 .test-footer {
   display: flex;
