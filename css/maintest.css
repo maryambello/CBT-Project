@@ -1,0 +1,40 @@
+.test-div {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  justify-content: center;
+}
+
+.test-div div {
+  background-image: url("../images/image17.jpg");
+  width: 300px;
+  height: 250px;
+  margin: 25px;
+  border-radius: 7px;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.test-div div:nth-child(1) {
+  background-image: url("../images/image16.jpg");
+}
+
+.test-div div:nth-child(3) {
+  background-image: url("../images/image18.jpg");
+}
+
+.test-div div a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.test-div div img {
+  width: 300px;
+  height: 250px;
+}

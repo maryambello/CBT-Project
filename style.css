@@ -3,6 +3,113 @@
   margin: 0;
   box-sizing: border-box;
 }
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
 
 html,
 body {
@@ -10,6 +117,7 @@ body {
   width: 100%;
   font-weight: 500;
   font-family: sans-serif;
+  line-height: 1.5;
 }
 h1 {
   margin-right: 57%;
@@ -68,6 +176,7 @@ h1 {
   border: 1px solid #300964;
   margin-top: 20px;
   margin-left: 15px;
+  cursor: pointer;
 }
 .btn:hover {
   background-color: #300964;
@@ -262,80 +371,12 @@ hr {
   height: 130px;
   border-radius: 70px;
 }
-.left {
-  width: 250px;
-  height: 600px;
-  border-radius: 25px;
-  background: #ccf;
-  margin: 40px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-left: 40px;
-  padding: 50px;
-}
-.left h3 {
-  font-size: 30px;
-}
-.left select {
-  margin: 10px;
-  padding: 5px;
-  width: 150px;
-  border: none;
-  border-radius: 3px;
-}
-.left select option {
-  outline: none;
-}
-.right {
-  display: flex;
-  text-align: justify;
-  flex-direction: column;
-  font-size: 25px;
-  margin: 50px;
-}
-
-.right h3 {
-  text-align: center;
-}
-.right button {
-  padding: 5px;
-  border-radius: 10px;
-  border: 1px solid #606;
-  display: flex;
-  justify-content: end;
-  align-items: end;
-  width: 100px;
-}
-.right button :hover {
-  background-color: #300964;
-  color: white;
-}
-.right button a {
-  text-align: center;
-}
 
 .test {
   font-size: 40px;
   margin: 18px;
 }
-.test-div {
-  display: flex;
-  flex-direction: row;
-  justify-items: center;
-  justify-content: center;
-}
-.test-div div {
-  width: 300px;
-  height: 250px;
-  background-color: cadetblue;
-  margin: 25px;
-  border-radius: 7px;
-}
-.test-div div img {
-  width: 300px;
-  height: 250px;
-}
+
 .test-footer {
   display: flex;
   align-items: center;
