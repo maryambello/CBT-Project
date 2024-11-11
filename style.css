@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-img{
+img {
   width: 100%;
   object-fit: cover;
   display: block;
@@ -132,12 +132,11 @@ h1 {
 
 .nav-bar {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 30px;
 }
 
-.menu {
-}
+
 .menu ul {
   list-style: none;
   display: inline-flex;
@@ -171,13 +170,10 @@ h1 {
   justify-content: space-between;
   margin: 30px;
   margin-bottom: 10%;
-  font-size: 18px;
 }
-.box p {
-  margin-top: 10px;
-}
-.box h1 {
-  font-size: 52px;
+
+.box  {
+  font-size: 20px;
   width: 75%;
 }
 .btn {
@@ -199,13 +195,13 @@ div img {
   width: 500px;
 }
 
-.container-1 {
+.container, .container-1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin: 30px;
   margin-bottom: 10%;
-  font-size: 500;
+  font-size: 20px;
   gap: 15px;
 }
 .container-1 img {
@@ -215,10 +211,10 @@ div img {
 .box-2,
 .box-3 {
   display: flex;
-  font-size: 15px;
+  font-size: 20px;
   text-align: start;
   flex-direction: column;
-  gap: 15px;
+  gap: 10px;
 }
 .box-3 {
 }
@@ -367,9 +363,7 @@ hr {
 }
 .last b {
 }
-.test-container {
-  display: flex;
-}
+
 .picture {
   width: 130px;
   height: 130px;
