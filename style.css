@@ -3,6 +3,10 @@
   margin: 0;
   box-sizing: border-box;
 }
+section {
+  margin-left: 92px;
+  margin-right: 92px;
+}
 
 img {
   width: 100%;
@@ -179,11 +183,16 @@ h1 {
   justify-content: space-between;
   margin: 30px;
   margin-bottom: 10%;
+  margin-top: 100px;
+
 }
 
 .box {
-  font-size: 20px;
+  font-size: 22px;
   width: 75%;
+  align-items: center;
+  justify-content: center;
+
 }
 .box a {
   padding: 8px;
@@ -211,11 +220,11 @@ h1 {
   color: white;
 }
 
-div img {
+/* div img {
   border-radius: 5px;
   width: 500px;
   box-shadow: 0px 5px 25px 1.5px #6da3d6 ;
-}
+} */
 
 .container,
 .container-1 {
@@ -410,7 +419,6 @@ hr {
   justify-content: space-around;
   padding: 12px;
   background-color: #3f86c8;
-  
 }
 .login-container {
   display: flex;
@@ -473,4 +481,25 @@ hr {
 .icon img {
   width: 70px;
   margin: 40px;
+}
+
+.card {
+  border: 1px solid #3f86c8;
+  width: 300px;
+  border-radius: 8px;
+  padding: 16px;
+}
+.card img {
+  width: 100%;
+  border-radius: 4px;
+}
+.card p {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+
+.feature {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
 }
