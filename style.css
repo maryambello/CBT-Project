@@ -378,9 +378,9 @@ nav ul li::after{
   color: white;
 }
 .div-5 {
-  display: flex;
-  margin: 30px;
-  justify-content: space-around;
+  /* display: flex; */
+  margin-top: 2rem;
+  /* justify-content: space-around; */
 }
 .div-5 h2 {
   font-size: 40px;
