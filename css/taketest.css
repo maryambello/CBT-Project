@@ -1,3 +1,6 @@
+
+
+
 .test-container {
   display: flex;
   align-items: center;
@@ -48,4 +51,13 @@
   display: inline-block;
   width: 150px;
   text-align: center;
+}
+@media(max-width:768px){
+  .test-container{
+    flex-direction: column;
+    margin-top:90px;
+  }
+  .right{
+    font-size:15px;
+  }
 }
