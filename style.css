@@ -223,6 +223,9 @@ nav ul li:hover::after {
   background: #3f86c8;
   color: white;
 }
+@media(max-width:768px){
+  
+}
 /*Responsive part*/
 .side {
   position: fixed;
@@ -654,7 +657,10 @@ nav ul li:hover::after {
   gap: 32px;
 }
 @media (max-width: 768px) {
-  .card {
+  
+  .feature{
+    display: flex;
+    flex-direction: column;
   }
 }
 a {
