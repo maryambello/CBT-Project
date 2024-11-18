@@ -23,7 +23,6 @@
   justify-content: center;
   align-items: center;
 }
-
 .test-div div:nth-child(1) {
   background-image: url("../images/image16.jpg");
 }
@@ -48,8 +47,8 @@
     font-size: 20px;
     margin-top: 90px;
   }
-  .test-div{
+  .test-div {
     flex-direction: column;
-margin:50px ;
+    margin: 50px;
   }
 }
